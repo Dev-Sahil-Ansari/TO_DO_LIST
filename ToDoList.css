@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("TO_DO_LIST_BACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #091540;
+}
+.mainContainer{
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    height: 71vh;
+    width: 60vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    
+}
+h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    margin-left: 17vh;
+}
+.task-assing-area{
+    height: 8vh;
+}
+
+.task-assigning{
+    height: 7vh;
+    width: 45vh;
+    border-radius: 0.5rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.40);
+    border: none;
+    font-size: 2.5vh;
+    color: black;
+    margin-right: 1vh;
+}
+button{
+    height: 7vh;
+    width: 13vh;
+    color: white;
+    font-weight: bolder;
+    background-color: #859a6f;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.task-showing-area{
+    height: 32vh;
+    color: black;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5vh;
+    line-height: 5vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+}
+.msg{
+    font-size: 3vh;
+    font-weight: 200;
+    font-size: 25px;
+    width: 30vh;
+    margin-left: 2vh;
+    margin-right: 18.5vh;
+    margin-bottom: 2vh;
+}
+button:hover{
+    background-color: rgba(133, 154, 111, 0.8);
+}
+button:active{
+    font-size: 15px;
+    transform: rotate(1vh, 1vh);
+}
+
+.taskCompleted{
+    display: inline;
+    font-size: 3vh;
+    font-weight: 200;
+    font-size: 25px;
+    width: 30vh;
+    margin-left: 1vh;
+    margin-top: 10vh;
+    padding: 1vh;  
+    column-gap: 1vh;  
+}
+
+.credit{
+    color: black;
+    padding: 5vh;
+    margin-left: 12vh;
+}
+a{
+    text-decoration: none;
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5vh;
+
+}
+.delete{
+    height: 5vh;
+    width: 15vh;
+    margin-left: 14vh;
+}
