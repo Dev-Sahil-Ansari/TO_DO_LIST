@@ -111,3 +111,35 @@ a{
     width: 15vh;
     margin-left: 14vh;
 }
+@media (min-width: 320px) and (max-width: 480px) {
+h1{
+    margin-left: 5vh;
+}    
+.task-assigning{
+    width: 25vh;
+}
+.mainContainer{
+    width: 40vh;
+    height: 73vh;
+}
+.msg{
+    font-size: 3vh;
+}
+.taskCompleted{
+    font-size: 3vh;
+}
+.delete{
+    width: 13vh;
+    margin-left: 26vh;
+}
+.credit{
+    margin-left: 25px;
+    font-size: 0.5vh;
+    margin-top: 10px;
+    padding: 0;
+}
+.task-showing-area{
+    height: 33vh;
+    font-size: 2.2vh;
+}
+}
