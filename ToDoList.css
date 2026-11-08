@@ -126,11 +126,13 @@ h1{
     margin-left: 5vh;
 }    
 .task-assigning{
-    width: 20vh;
+    width: 18.5vh;
+    font-size: 2vh;
+    margin-right: 0;
 }
 .mainContainer{
-    width: 35vh;
-    height: 66vh;
+    width: 32vh;
+    height: 68vh;
     background-color: rgba(255, 255, 255, 0.15);
 }
 .msg{
@@ -143,18 +145,18 @@ h1{
 }
 .delete{
     width: 13vh;
-    margin-left: 22vh;
+    margin-left: 19vh;
     background-color: rgb(27, 26, 26);
 }
 .credit{
-    margin-left: 25px;
-    font-size: 0.5vh;
-    margin-top: 2px;
+    margin-left: 15px;
+    font-size: 0.3vh;
+    margin-top: 3px;
     padding: 0;
 }
 .task-showing-area{
     height: 33vh;
-    width: 34vh;
+    width: 32vh;
     font-size: 2vh;
 }
 }
