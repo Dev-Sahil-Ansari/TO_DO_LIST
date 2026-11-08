@@ -1,4 +1,5 @@
 # TO_DO_LIST
+<b>I updated Responsive Design in the To Do List</b>
 <p>That To do list website is like a task app, which add task delete them even if it is not checked and shows exact number of completed task the task which you checked and also track the total number of task. <b>I build that from scratch to practice my learning.</b></p>
 <br>
 <h6><b>So There is the image of My To do list website</b></h6>
